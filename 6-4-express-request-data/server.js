@@ -110,7 +110,7 @@ import express from "express";
 // create express app instance to create web server
 const app = express();
 app.get("/", (req, res) => {
-  res.json({ ok: true, message: "Server is running" });
+  res.json({ ok: true, message: "Server is up" });
 });
 
 // Query params: /echo?name=Ali&age=22
